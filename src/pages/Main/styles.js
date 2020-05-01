@@ -12,25 +12,31 @@ export default StyleSheet.create({
   }, 
   
   resultado: {
+    width: 210,
+    height: 210,
+    backgroundColor: '#fff',
+    borderWidth: 3,
     alignItems: 'center',
-    marginVertical: 100,
-    backgroundColor: "#888",
+    justifyContent: 'center',
+    marginBottom: 40,
+    marginTop: 30,
     padding: 20,
-    borderRadius: 20/2
+    borderRadius: 210/2
     
   },
 
   resultadoTitle: {
     fontSize: 25,
     fontWeight: 'bold',
-    color: '#fff'
+    color: '#000'
 
   },
 
   resultadoSubtitle: {
     fontSize: 20,
     fontWeight: '600',
-    color: '#fff'
+    color: '#000',
+    marginTop: 10
   },
 
   sliderContainer: {
@@ -39,8 +45,25 @@ export default StyleSheet.create({
   },
 
   textSlider: {
-    fontSize: 25,
+    fontSize: 20,
     fontWeight: '900',
-    marginBottom: 20,
+    marginBottom: 10,
+  },
+
+  sliderTitle: {
+    fontSize: 25,
+    fontWeight: 'bold',
+    marginBottom: 10
+
+  },
+
+  buttonStyle: {
+    width: 200,
+    height: 50,
+    justifyContent: 'center',
+    marginTop: 40
+  },
+  buttonText: {
+    fontSize: 25
   }
 })
